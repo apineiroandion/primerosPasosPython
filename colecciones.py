@@ -34,3 +34,32 @@ print (t3[1:5:2]) #Saltos de 2 en 2
 #para crear una tupla de un elemento se pone la coma
 t4 = (1,)
 print(type(t4))
+
+## Diccionarios
+d = {'a': 1, 'b': 2, 'c': 3}
+print (d['a'])
+print (d)
+print (type(d))
+d2 = dict() #Crea un diccionario valeiro
+print (type(d2))
+d3 = {'a': 1, 'b': "Dous", 'c': 3.0, 'd': [4, "V"], 'e': 4}
+print (d3['b'][1])
+print (d3['d'][1])
+d3['f'] = 'Seis'
+print (d3)
+d3['b'] = 'Dous'
+print (d3)
+
+##Sentencias Condicionais
+# if (importante el sangrado)
+variable = 3
+if variable == 5:
+    print ("A variable é 5")
+else:
+    print ("A variable non é 5")
+
+# operador ternario
+variable = 5
+print ("A variable é 5" if variable == 5 else "A variable non é 5")
+par = True if variable % 2 == 0 else False
+print(par)
